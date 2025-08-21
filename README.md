@@ -1,12 +1,10 @@
 # LOSDR
 
-
-# CLIP-based Drone Text Embedding & Similarity Visualization  ---text_extract.py
+# text_extract.py
+## CLIP-based Drone Text Embedding & Similarity Visualization  ---text_extract.py
 
 本项目使用 [OpenAI CLIP](https://huggingface.co/openai/clip-vit-base-patch32) 模型，对无人机/遥控器类别构造文本 Prompt，提取文本嵌入，并计算类别间的语义相似度矩阵。  
 在此基础上，生成 **热力图** 和 **PCA 可视化散点图**，用于分析类别之间的语义分布。
-
-## ✨ 功能特点
 
 - **多模板 Prompt 集成 (Prompt Ensemble)**  
   为每个类别生成多条中英文 prompt，并进行平均编码，增强语义表示的稳定性。
@@ -28,7 +26,5 @@
   - PCA 降维散点图
   - 类别对应的最终 Prompt 列表（TXT/JSON 保存）
 
----
-
-## 📂 项目结构
+# Matlab Code
 
