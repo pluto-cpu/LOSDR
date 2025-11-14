@@ -28,3 +28,6 @@ Based on this, **heatmaps** and **PCA scatter plots** are generated to analyze t
 
 # Matlab Code
 
+# statistical evidence of GMM
+more details can be obtained through GMM.pdf
+
